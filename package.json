@@ -1,0 +1,24 @@
+{
+  "name": "devgameops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Denis21M/Dev_Game_Ops.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Denis21M/Dev_Game_Ops/issues"
+  },
+  "homepage": "https://github.com/Denis21M/Dev_Game_Ops#readme",
+  "dependencies": {
+    "openai": "^4.103.0"
+  }
+}
