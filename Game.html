@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <title>Trivia game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+<div class="super">
+    <p>Visit my Profile:<a href="http://www.linkedin.com/in/mmakogu" id="linkedin">LinkedIn</a></p>
+    <div class="container">
+        <h1>Trivia Game</h1>
+        <h2 id="question"></h2>
+        <div id="choices">
+            <button id="choice1" onclick="checkAnswer(this)"></button>
+            <button id="choice2" onclick="checkAnswer(this)"></button>
+            <button id="choice3" onclick="checkAnswer(this)"></button>
+            <button id="choice4" onclick="checkAnswer(this)"></button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <div class="refresh">
+        <button class="refresh"><a href="https://denis21m.github.io/Trivia-Game/Game.html" id="reset">Reset</a></button>
+    </div>
+</div>
+    <script src="Game.js"></script>
+</body>
+</html>
