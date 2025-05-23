@@ -1,5 +1,5 @@
 async function fetchQuestion() {
-    const res = await fetch('/.netlify/functions/getQuestion');
+    const res = await fetch('/.netlify/functions/getQuestions');
     const data = await res.json();
     displayQuestion(data);
 }
